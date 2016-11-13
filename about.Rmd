@@ -6,7 +6,7 @@ title: "about"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Project outline
 
 Rapid gravity filters are the final physical barrier in many water treatment systems
 preventing pathogens and particulate contaminants from reaching the distribution

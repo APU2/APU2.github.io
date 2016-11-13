@@ -1,0 +1,11 @@
+---
+title: "The Clarity Bowl"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Designing filtration robustness tools
+
+Turbidity; the optical property of cloudiness in water, is a ubiquitously monitored surrogate parameter which offers the greatest opportunity to monitor the performance drinking water filtration processes. Poor filtration and pre-treatment performance and resultant elevated filtrate turbidity is associated with; pathogen passage, shielding microorganisms from disinfection, additional chlorine demand, disinfection-by-product formation and promoting biological growth in distribution systems. Scottish Water is required by regulation to operate in a way that minimises turbidity in final treated waters in order to minimise risk from cryptosporidium. Observed and projected elevation in natural organic matter (NOM) concentration and increased frequency of high rainfall events mean that the conditions under which pre-treatment and filtration processes are operating are ever more challenging. There is increasing recognition of the importance of maintaining pathogen barrier integrity in order to minimise risk to public health; particularly for short-duration events ineffectively captured during regulatory sampling. More effective systems for monitoring; maintaining integrity and optimising performance of individual barriers within a treatment system will enable minimisation of public health risk and facilitate increasingly marginal improvements in water quality compliance.

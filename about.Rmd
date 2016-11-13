@@ -1,0 +1,17 @@
+---
+title: "about"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Rapid gravity filters are the final physical barrier in many water treatment systems
+preventing pathogens and particulate contaminants from reaching the distribution
+system and customer. These long life assets are typically monitored using on-line
+turbidity, flow and head loss instrumentation. New methods for monitoring
+modelling and optimising particle systems as well as software for converting big datasets into useful insights to evidence operational decisions are being
+developed to allow existing physical assets to deliver improving levels of water
+quality compliance.

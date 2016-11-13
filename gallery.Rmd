@@ -1,0 +1,15 @@
+---
+title: "Gallery"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## [Filter management demo application](http://178.62.116.188:3838/FLT_MNG)
+
+## [Performance and diagnosis application demo](http://178.62.116.188:3838/IWA_OSLO)
+
+## [Disinfection calculator](http://178.62.116.188:3838/CtCalc/)

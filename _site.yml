@@ -1,0 +1,11 @@
+name: "The Clarity Bowl"
+output_dir: "."
+navbar:
+  title: "The Clarity Bowl"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Gallery"
+      href: gallery.html

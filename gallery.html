@@ -11,18 +11,20 @@
 
 
 
-<title>Gallery</title>
+<title>Gallery of process data applications</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <link rel="stylesheet"
-      href="site_libs/highlight/default.css"
+      href="site_libs/highlight/textmate.css"
       type="text/css" />
 <script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
@@ -98,34 +100,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 45px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 </style>
 
@@ -178,17 +180,60 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="ion ion-android-home"></span>
+     
+    Home
+  </a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="about.html">
+    <span class="ion ion-lightbulb"></span>
+     
+    Current project
+  </a>
 </li>
 <li>
-  <a href="gallery.html">Gallery</a>
+  <a href="gallery.html">
+    <span class="ion ion-iphone"></span>
+     
+    Demos
+  </a>
+</li>
+<li>
+  <a href="resume.pdf">
+    <span class="ion ion-document-text"></span>
+     
+    Resume
+  </a>
+</li>
+<li>
+  <a href="contact.html">
+    <span class="ion ion-android-contact"></span>
+     
+    Contact
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/apu2">
+    <span class="fa fa-github fa-2x"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/H20drip">
+    <span class="fa fa-twitter fa-2x"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://uk.linkedin.com/in/andrew-upton-653b8084">
+    <span class="fa fa-linkedin fa-2x"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -198,21 +243,39 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Gallery</h1>
+<h1 class="title toc-ignore">Gallery of process data applications</h1>
 
 </div>
 
 
-<div id="filter-management-demo-application" class="section level2">
-<h2><a href="http://178.62.116.188:3838/FLT_MNG">Filter management demo application</a></h2>
-</div>
-<div id="performance-and-diagnosis-application-demo" class="section level2">
-<h2><a href="http://178.62.116.188:3838/IWA_OSLO">Performance and diagnosis application demo</a></h2>
-</div>
-<div id="disinfection-calculator" class="section level2">
-<h2><a href="http://178.62.116.188:3838/CtCalc/">Disinfection calculator</a></h2>
+
+<div style="background-color:#ffffff;color:#6699cc;padding:20px;">
+
+<div class="col-sm-4">
+<a class="thumbnail" title="Filter management" href="http://178.62.116.188:3838/FLT_MNG">
+<img src="images/flt.png"/>
+<div class="caption">Filter management</div>
+</a>
+</div><div class="col-sm-4">
+<a class="thumbnail" title="Filter fault diagnosis" href="http://178.62.116.188:3838/IWA_OSLO">
+<img src="images/diag.png"/>
+<div class="caption">Filter fault diagnosis</div>
+</a>
+</div><div class="col-sm-4">
+<a class="thumbnail" title="Ct Calculator" href="http://178.62.116.188:3838/CtCalc">
+<img src="images/ct.png"/>
+<div class="caption">Ct Calculator</div>
+</a>
 </div>
 
+</div>
+</div>
+
+
+<div style="background-color:#00274b;color:white;padding:20px;">
+  <h4>The clarity bowl. Data for water treatment</h4>
+  <p> This site was created using rmarkdown <a href="http://rmarkdown.rstudio.com">rmarkdown.rstudio.com</a></p>
+</div>
 
 
 

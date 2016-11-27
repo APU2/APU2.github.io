@@ -1,0 +1,25 @@
+---
+title: "Contact details"
+---
+
+
+
+<!--html_preserve-->
+<div style="background-color:#f0f0f0;color:#121212;padding:40px;">
+<li>
+<i class="ion-ios-home" aria-hidden="true"></i> CWSI, College Road, Cranfield, MK43 0AL, Bedfordshire 
+</li>
+<li>
+<i class="ion-ios-home-outline" aria-hidden="true"></i> Scottish Water, 55 Buckstone Terrace Edinburgh EH10 6XH 
+</li>
+<li>
+<i class="ion-ios-telephone" aria-hidden="true"></i> +44 7817 357033
+</li>
+<li>
+<i class="ion-email" aria-hidden="true"></i> andrew.upton@stream-idc.net
+</li>
+<li>
+<i class="ion-earth" aria-hidden="true"></i> claritybowl.com
+</li>
+</div>
+<!--/html_preserve-->

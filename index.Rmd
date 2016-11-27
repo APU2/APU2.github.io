@@ -1,11 +1,37 @@
 ---
 title: "The Clarity Bowl"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, include=FALSE}
+library(htmltools)
+thumbnail <- function(title, img, href, caption = TRUE) {
+  div(class = "col-sm-4",
+      a(class = "thumbnail", title = title, href = href,
+        img(src = img),
+        div(class = ifelse(caption, "caption", ""),
+          ifelse(caption, title, "")
+        )
+      )
+  )
+}
 ```
 
-# Designing filtration robustness tools
+<!--html_preserve-->
+<div style="background-color:#00274b;color:white;padding:20px;">
+  <h2>Welcome to the clarity bowl...</h2>
+  <p>The clarity bowl is a place to demo some of the outputs from a Cranfield University EngD project investigating improvements to water treatment processes using existing and novel sources of online data.</p>
+</div>
 
-Turbidity; the optical property of cloudiness in water, is a ubiquitously monitored surrogate parameter which offers the greatest opportunity to monitor the performance drinking water filtration processes. Poor filtration and pre-treatment performance and resultant elevated filtrate turbidity is associated with; pathogen passage, shielding microorganisms from disinfection, additional chlorine demand, disinfection-by-product formation and promoting biological growth in distribution systems. Scottish Water is required by regulation to operate in a way that minimises turbidity in final treated waters in order to minimise risk from cryptosporidium. Observed and projected elevation in natural organic matter (NOM) concentration and increased frequency of high rainfall events mean that the conditions under which pre-treatment and filtration processes are operating are ever more challenging. There is increasing recognition of the importance of maintaining pathogen barrier integrity in order to minimise risk to public health; particularly for short-duration events ineffectively captured during regulatory sampling. More effective systems for monitoring; maintaining integrity and optimising performance of individual barriers within a treatment system will enable minimisation of public health risk and facilitate increasingly marginal improvements in water quality compliance.
+
+
+<div style="background-color:#ffffff;color:#6699cc;padding:20px;">
+```{r, echo=FALSE, render= "asis"}
+thumbnail("Project background", "images/info.png", "http://claritybowl.com/about.html")
+thumbnail("Application gallery", "images/laptop.png", "http://claritybowl.com/gallery.html")
+thumbnail("Andrew Upton Resume", "images/document.png", "http://claritybowl.com/AndrewUptonResume.pdf")
+```
+</div>
+
+</div>
+
+
+<!--/html_preserve-->

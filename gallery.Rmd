@@ -1,15 +1,31 @@
 ---
-title: "Gallery"
+title: "Gallery of process data applications"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+```{r, include=FALSE}
+library(htmltools)
+thumbnail <- function(title, img, href, caption = TRUE) {
+  div(class = "col-sm-4",
+      a(class = "thumbnail", title = title, href = href,
+        img(src = img),
+        div(class = ifelse(caption, "caption", ""),
+          ifelse(caption, title, "")
+        )
+      )
+  )
+}
 ```
 
+<!--html_preserve-->
+<div style="background-color:#ffffff;color:#6699cc;padding:20px;">
 
+```{r, echo=FALSE}
+thumbnail("Filter management", "images/flt.png", "http://178.62.116.188:3838/FLT_MNG")
+thumbnail("Filter fault diagnosis", "images/diag.png", "http://178.62.116.188:3838/IWA_OSLO")
+thumbnail("Ct Calculator", "images/ct.png", "http://178.62.116.188:3838/CtCalc")
+```
 
-## [Filter management demo application](http://178.62.116.188:3838/FLT_MNG)
-
-## [Performance and diagnosis application demo](http://178.62.116.188:3838/IWA_OSLO)
-
-## [Disinfection calculator](http://178.62.116.188:3838/CtCalc/)
+</div>
+</div>
+<!--/html_preserve-->

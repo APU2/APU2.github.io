@@ -15,14 +15,16 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <link rel="stylesheet"
-      href="site_libs/highlight/default.css"
+      href="site_libs/highlight/textmate.css"
       type="text/css" />
 <script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
@@ -98,34 +100,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 45px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 </style>
 
@@ -178,17 +180,60 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="ion ion-android-home"></span>
+     
+    Home
+  </a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="about.html">
+    <span class="ion ion-lightbulb"></span>
+     
+    Current project
+  </a>
 </li>
 <li>
-  <a href="gallery.html">Gallery</a>
+  <a href="gallery.html">
+    <span class="ion ion-iphone"></span>
+     
+    Demos
+  </a>
+</li>
+<li>
+  <a href="resume.pdf">
+    <span class="ion ion-document-text"></span>
+     
+    Resume
+  </a>
+</li>
+<li>
+  <a href="contact.html">
+    <span class="ion ion-android-contact"></span>
+     
+    Contact
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/apu2">
+    <span class="fa fa-github fa-2x"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/H20drip">
+    <span class="fa fa-twitter fa-2x"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://uk.linkedin.com/in/andrew-upton-653b8084">
+    <span class="fa fa-linkedin fa-2x"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -203,11 +248,42 @@ $(document).ready(function () {
 </div>
 
 
-<div id="designing-filtration-robustness-tools" class="section level1">
-<h1>Designing filtration robustness tools</h1>
-<p>Turbidity; the optical property of cloudiness in water, is a ubiquitously monitored surrogate parameter which offers the greatest opportunity to monitor the performance drinking water filtration processes. Poor filtration and pre-treatment performance and resultant elevated filtrate turbidity is associated with; pathogen passage, shielding microorganisms from disinfection, additional chlorine demand, disinfection-by-product formation and promoting biological growth in distribution systems. Scottish Water is required by regulation to operate in a way that minimises turbidity in final treated waters in order to minimise risk from cryptosporidium. Observed and projected elevation in natural organic matter (NOM) concentration and increased frequency of high rainfall events mean that the conditions under which pre-treatment and filtration processes are operating are ever more challenging. There is increasing recognition of the importance of maintaining pathogen barrier integrity in order to minimise risk to public health; particularly for short-duration events ineffectively captured during regulatory sampling. More effective systems for monitoring; maintaining integrity and optimising performance of individual barriers within a treatment system will enable minimisation of public health risk and facilitate increasingly marginal improvements in water quality compliance.</p>
+
+<div style="background-color:#00274b;color:white;padding:20px;">
+  <h2>Welcome to the clarity bowl...</h2>
+  <p>The clarity bowl is a place to demo some of the outputs from a Cranfield University EngD project investigating improvements to water treatment processes using existing and novel sources of online data.</p>
 </div>
 
+
+
+<div style="background-color:#ffffff;color:#6699cc;padding:20px;">
+<div class="col-sm-4">
+<a class="thumbnail" title="Project background" href="http://claritybowl.com/about.html">
+<img src="images/info.png"/>
+<div class="caption">Project background</div>
+</a>
+</div><div class="col-sm-4">
+<a class="thumbnail" title="Application gallery" href="http://claritybowl.com/gallery.html">
+<img src="images/laptop.png"/>
+<div class="caption">Application gallery</div>
+</a>
+</div><div class="col-sm-4">
+<a class="thumbnail" title="Andrew Upton Resume" href="http://claritybowl.com/AndrewUptonResume.pdf">
+<img src="images/document.png"/>
+<div class="caption">Andrew Upton Resume</div>
+</a>
+</div>
+</div>
+
+</div>
+
+
+
+
+<div style="background-color:#00274b;color:white;padding:20px;">
+  <h4>The clarity bowl. Data for water treatment</h4>
+  <p> This site was created using rmarkdown <a href="http://rmarkdown.rstudio.com">rmarkdown.rstudio.com</a></p>
+</div>
 
 
 

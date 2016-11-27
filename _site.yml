@@ -1,11 +1,33 @@
 name: "The Clarity Bowl"
 output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    include:
+      after_body: footer.html
 navbar:
   title: "The Clarity Bowl"
   left:
     - text: "Home"
+      icon: ion-android-home
       href: index.html
-    - text: "About"
+    - text: "Current project"
+      icon: ion-lightbulb
       href: about.html
-    - text: "Gallery"
+    - text: "Demos"
+      icon: ion-iphone
       href: gallery.html
+    - text: "Resume"
+      icon: ion-document-text
+      href: resume.pdf
+    - text: "Contact"
+      icon: ion-android-contact
+      href: contact.html
+  right:
+    - icon: fa-github fa-2x
+      href: https://github.com/apu2
+    - icon: fa-twitter fa-2x
+      href: https://twitter.com/H20drip
+    - icon: fa-linkedin fa-2x
+      href: https://uk.linkedin.com/in/andrew-upton-653b8084   

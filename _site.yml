@@ -20,7 +20,7 @@ navbar:
       href: gallery.html
     - text: "Resume"
       icon: ion-document-text
-      href: resume.pdf
+      href: AndrewUptonResume.pdf
     - text: "Contact"
       icon: ion-android-contact
       href: contact.html
@@ -28,6 +28,6 @@ navbar:
     - icon: fa-github fa-2x
       href: https://github.com/apu2
     - icon: fa-twitter fa-2x
-      href: https://twitter.com/H20drip
+      href: https://twitter.com/H2Odrip
     - icon: fa-linkedin fa-2x
       href: https://uk.linkedin.com/in/andrew-upton-653b8084   

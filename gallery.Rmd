@@ -25,7 +25,7 @@ thumbnail("Filter management", "images/flt.png", "http://178.62.116.188:3838/FLT
 thumbnail("Filter fault diagnosis", "images/diag.png", "http://178.62.116.188:3838/IWA_OSLO")
 thumbnail("Ct Calculator", "images/ct.png", "http://178.62.116.188:3838/CtCalc")
 thumbnail("RGF quality improvement charts", "images/qic.png", "http://178.62.116.188:3838/control_chart_demo")
-thumbnail("RGF spike traking charts", "images/qcc.png", "http://178.62.116.188:3838/turbidity_spike_charts")
+thumbnail("RGF spike tracking charts", "images/qcc.png", "http://178.62.116.188:3838/turbidity_spike_charts")
 ```
 
 </div>

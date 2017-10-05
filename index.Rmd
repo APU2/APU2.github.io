@@ -18,16 +18,16 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 <!--html_preserve-->
 <div style="background-color:#00274b;color:white;padding:20px;">
   <h2>Welcome to the clarity bowl...</h2>
-  <p>The clarity bowl is a place to demo some of the outputs from a Cranfield University EngD project investigating improvements to water treatment processes using existing and novel sources of online data.</p>
+  <p>Sorry this site is not currently being maintained</p>
 </div>
 
 
 
 <div style="background-color:#ffffff;color:#6699cc;padding:20px;">
 ```{r, echo=FALSE, render= "asis"}
-thumbnail("Project background", "images/info.png", "http://claritybowl.com/about.html")
-thumbnail("Application gallery", "images/laptop.png", "http://claritybowl.com/gallery.html")
-thumbnail("Andrew Upton Resume", "images/document.png", "http://claritybowl.com/AndrewUptonResume.pdf")
+#thumbnail("Project background", "images/info.png", "http://claritybowl.com/about.html")
+#thumbnail("Application gallery", "images/laptop.png", "http://claritybowl.com/gallery.html")
+#thumbnail("Andrew Upton Resume", "images/document.png", "http://claritybowl.com/AndrewUptonResume.pdf")
 ```
 </div>
 

@@ -4,28 +4,28 @@ title: "Gallery of process data applications"
 
 
 ```{r, include=FALSE}
-library(htmltools)
-thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-4",
-      a(class = "thumbnail", title = title, href = href,
-        img(src = img),
-        div(class = ifelse(caption, "caption", ""),
-          ifelse(caption, title, "")
-        )
-      )
-  )
-}
+# library(htmltools)
+# thumbnail <- function(title, img, href, caption = TRUE) {
+#   div(class = "col-sm-4",
+#       a(class = "thumbnail", title = title, href = href,
+#         img(src = img),
+#         div(class = ifelse(caption, "caption", ""),
+#           ifelse(caption, title, "")
+#         )
+#       )
+#   )
+# }
 ```
 
 <!--html_preserve-->
 <div style="background-color:#ffffff;color:#6699cc;padding:20px;">
 
 ```{r, echo=FALSE}
-thumbnail("Filter management", "images/flt.png", "http://178.62.116.188:3838/FLT_MNG")
-thumbnail("Filter fault diagnosis", "images/diag.png", "http://178.62.116.188:3838/IWA_OSLO")
-thumbnail("Ct Calculator", "images/ct.png", "http://178.62.116.188:3838/CtCalc")
-thumbnail("RGF quality improvement charts", "images/qic.png", "http://178.62.116.188:3838/control_chart_demo")
-thumbnail("RGF spike tracking charts", "images/qcc.png", "http://178.62.116.188:3838/turbidity_spike_charts")
+# thumbnail("Filter management", "images/flt.png", "http://178.62.116.188:3838/FLT_MNG")
+# thumbnail("Filter fault diagnosis", "images/diag.png", "http://178.62.116.188:3838/IWA_OSLO")
+# thumbnail("Ct Calculator", "images/ct.png", "http://178.62.116.188:3838/CtCalc")
+# thumbnail("RGF quality improvement charts", "images/qic.png", "http://178.62.116.188:3838/control_chart_demo")
+# thumbnail("RGF spike tracking charts", "images/qcc.png", "http://178.62.116.188:3838/turbidity_spike_charts")
 ```
 
 </div>

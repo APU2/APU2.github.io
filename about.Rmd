@@ -2,14 +2,16 @@
 title: "Water treatment robustness tools"
 ---
 
-# Project outline
 
-Rapid gravity filters are the final physical barrier in many water treatment systems preventing pathogens and particulate contaminants from reaching the distribution system and customer. These long life assets are typically monitored using on-line turbidity, flow and head loss instrumentation. New methods for monitoring modelling and optimising particle systems as well as software for converting process data into useful insights to evidence operational decisions are being developed to allow existing physical assets to deliver improving levels of water quality compliance.
 
-A poster oultline can be seen [here](http://claritybowl.com/projectposter.pdf)
+<!-- # Project outline -->
 
-# Stakeholders
+<!-- Rapid gravity filters are the final physical barrier in many water treatment systems preventing pathogens and particulate contaminants from reaching the distribution system and customer. These long life assets are typically monitored using on-line turbidity, flow and head loss instrumentation. New methods for monitoring modelling and optimising particle systems as well as software for converting process data into useful insights to evidence operational decisions are being developed to allow existing physical assets to deliver improving levels of water quality compliance. -->
 
-[STREAM](http://www.stream-idc.net) The Industrial Doctorate Centre for the Water Sector, is supported by the Engineering and Physical Science Research Council [(EPSRC)](http://www.epsrc.ac.uk/). The industrial sponsor is [Scottish Water](http://www.scottishwater.co.uk) and the host university is Cranfield Water Science Institute [(CWSI)](http://www.cranfield.ac.uk/centres/cranfield-water-sciences-institute)
+<!-- A poster oultline can be seen [here](http://claritybowl.com/projectposter.pdf) -->
+
+<!-- # Stakeholders -->
+
+<!-- [STREAM](http://www.stream-idc.net) The Industrial Doctorate Centre for the Water Sector, is supported by the Engineering and Physical Science Research Council [(EPSRC)](http://www.epsrc.ac.uk/). The industrial sponsor is [Scottish Water](http://www.scottishwater.co.uk) and the host university is Cranfield Water Science Institute [(CWSI)](http://www.cranfield.ac.uk/centres/cranfield-water-sciences-institute) -->
 
 

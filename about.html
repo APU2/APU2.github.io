@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -19,14 +19,13 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 <link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="site_libs/highlight/textmate.css"
-      type="text/css" />
-<script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
@@ -153,7 +152,6 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
@@ -248,15 +246,11 @@ $(document).ready(function () {
 </div>
 
 
-<div id="project-outline" class="section level1">
-<h1>Project outline</h1>
-<p>Rapid gravity filters are the final physical barrier in many water treatment systems preventing pathogens and particulate contaminants from reaching the distribution system and customer. These long life assets are typically monitored using on-line turbidity, flow and head loss instrumentation. New methods for monitoring modelling and optimising particle systems as well as software for converting process data into useful insights to evidence operational decisions are being developed to allow existing physical assets to deliver improving levels of water quality compliance.</p>
-<p>A poster oultline can be seen <a href="http://claritybowl.com/projectposter.pdf">here</a></p>
-</div>
-<div id="stakeholders" class="section level1">
-<h1>Stakeholders</h1>
-<p><a href="http://www.stream-idc.net">STREAM</a> The Industrial Doctorate Centre for the Water Sector, is supported by the Engineering and Physical Science Research Council <a href="http://www.epsrc.ac.uk/">(EPSRC)</a>. The industrial sponsor is <a href="http://www.scottishwater.co.uk">Scottish Water</a> and the host university is Cranfield Water Science Institute <a href="http://www.cranfield.ac.uk/centres/cranfield-water-sciences-institute">(CWSI)</a></p>
-</div>
+<!-- # Project outline -->
+<!-- Rapid gravity filters are the final physical barrier in many water treatment systems preventing pathogens and particulate contaminants from reaching the distribution system and customer. These long life assets are typically monitored using on-line turbidity, flow and head loss instrumentation. New methods for monitoring modelling and optimising particle systems as well as software for converting process data into useful insights to evidence operational decisions are being developed to allow existing physical assets to deliver improving levels of water quality compliance. -->
+<!-- A poster oultline can be seen [here](http://claritybowl.com/projectposter.pdf) -->
+<!-- # Stakeholders -->
+<!-- [STREAM](http://www.stream-idc.net) The Industrial Doctorate Centre for the Water Sector, is supported by the Engineering and Physical Science Research Council [(EPSRC)](http://www.epsrc.ac.uk/). The industrial sponsor is [Scottish Water](http://www.scottishwater.co.uk) and the host university is Cranfield Water Science Institute [(CWSI)](http://www.cranfield.ac.uk/centres/cranfield-water-sciences-institute) -->
 
 <div style="background-color:#00274b;color:white;padding:20px;">
   <h4>The clarity bowl. Data for water treatment</h4>
@@ -270,8 +264,11 @@ $(document).ready(function () {
 <script>
 
 // add bootstrap table styles to pandoc tables
-$(document).ready(function () {
+function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
 
 
@@ -282,7 +279,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
